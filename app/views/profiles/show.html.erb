@@ -1,0 +1,14 @@
+<p>
+  <strong>Name:</strong>
+  <%= @profile.name %>
+ </p>
+
+ <p>
+ <strong>Profile Picture</strong>
+ <%= image_tag @profile.image.url(:thumb) %>
+ </p>
+
+<p>
+  <strong>About Me:</strong>
+  <%= @profile.about %>
+</p>
